@@ -32,6 +32,16 @@ const quiz = [
     ],
     correct:"富士山"
   },
+  {
+    question:"鬼滅の刃の主人公の名前は？",
+    answers:[
+      "竈門炭治郎",
+      "竈門紋次郎",
+      "竈門炎之助",
+      "竈門健三郎"
+    ],
+    correct:"竈門炭治郎"
+  }
 ]
 
 //定数、変数
@@ -83,7 +93,7 @@ const clickHandler = (e) =>{
   });
 };
 
-//ボタン非表示
+//ボタン非表示関数
 const btnNone = () =>{
   let btnIndex = 0;
   while(btnIndex < ansLen){
@@ -92,7 +102,7 @@ const btnNone = () =>{
   }
 };
 
-//ボタン表示
+//ボタン表示関数
 const btnOn = () =>{
   let btnIndex = 0;
   while(btnIndex < ansLen){
