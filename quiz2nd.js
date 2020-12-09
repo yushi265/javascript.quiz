@@ -41,6 +41,16 @@ const quiz = [
       "竈門健三郎"
     ],
     correct:"竈門炭治郎"
+  },
+  {
+    question:"『夜に駆ける』を歌っているのは誰？",
+    answers:[
+      "YONIGE",
+      "YOROSHIKU",
+      "YOASOBI",
+      "YOUKAI"
+    ],
+    correct:"YOASOBI"
   }
 ]
 
